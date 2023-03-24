@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // // 布尔型变量
+      // let iscool = true;
+      // console.log(iscool);
+
+      // // 检测数据类型
+      // let num = 10;
+      // console.log(typeof num);
+      // let str = "li";
+      // console.log(typeof str);
+
+      // 隐式转换（控制台）
+      console.log(1 + 1);
+      console.log("li" + 1);
+      console.log(2 + 2);
+      console.log(2 + "2"); //22
+      console.log(2 - 2);
+      console.log(2 - "2"); //0
+      console.log(+12);
+      console.log(+"123"); //+可以转换数字类型
+
+      // 显示
+      let str = "123";
+      console.log(Number(str));
+      console.log(Number("li"));
+      // 第一种
+      // let num = prompt("请输入你的年薪");
+      // console.log(Number(num));
+      // 第二种
+      // let num = Number(prompt("请输入年薪"));
+      // console.log(num);
+      // 第三种
+      let num = +prompt("请输入年薪");
+      console.log(num);
+      // -----------------
+      console.log(parseInt("12px"));
+      console.log(parseInt("12.34px"));
+      // -----------------
+      console.log(parseFloat("12px"));
+      console.log(parseFloat("12.34px"));
+
+      //练习：计算两个数字的和
+      // 1.用户输入
+      let num1 = +prompt("请输入第一个数字");
+      let num2 = +prompt("请输入第二个数字");
+      // 2.输出
+      alert(`两个数相加的和是：${num1 + num2}`);
+    </script>
+  </body>
+</html>

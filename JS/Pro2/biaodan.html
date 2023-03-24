@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="biaodan.js"></script>
+</head>
+<body>
+    <id="myForm">
+        <label for="name">用户名</label>
+        <input type="text" id="name" name="name">
+
+        <p>九位有效字符，前三个只能输入字母（不区分大小写），后六个只能输入数字！</p>
+        
+        <label for="password">密码</label>
+        <input type="password" id="password" name="password">
+        <span style="color:#FF0000";>(8位有效数字)</span><br><br>
+
+        <label for="confirm">确认密码</label>
+        <input type="confirm" id="confirm" name="confirm">
+        <span style="color:#FF0000";>(密码必须一致)</span><br><br>
+        
+        
+            <label for="dropdown">性别</label>
+            <select id="dropdown">
+              <option value="option1">男</option>
+              <option value="option2">女</option>
+            </select><br><br>
+        
+            <label for="year-dropdown">生日</label>
+        <select id="year-dropdown">
+          <option value="">2023</option>
+          <option value="2022">2022</option>
+          <option value="2021">2021</option>
+          <option value="2020">2020</option>
+        </select> 年 
+
+        <label for="year-dropdown"></label>
+        <select id="year-dropdown">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select> 月 
+
+        <label for="year-dropdown"></label>
+        <select id="year-dropdown">
+          <option value=""></option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select> 日 <br><br>
+
+        <label for="introduction">个人介绍</label>
+        <textarea id="introduction" name="introduction"></textarea><br><br>
+        
+        <button type="submit" id="submitBtn">重置</button>
+        <button type="submit" id="submitBtn">提交</button>
+      </form>
+      
+</body>
+</html>
